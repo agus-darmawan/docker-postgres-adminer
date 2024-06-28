@@ -1,0 +1,10 @@
+# Secrets
+.env
+
+# Editors specific
+.fleet
+.idea
+.vscode
+
+# Platform specific
+.DS_Store
