@@ -1,6 +1,6 @@
 version: '3.9'
 services:
-  db:
+  database:
     image: postgres:16
     environment:
       POSTGRES_USER: ${PGUSER}
@@ -16,7 +16,7 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - db
+      - database
 
 volumes:
   postgres-data:
